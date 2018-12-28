@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:id="@+id/gongju"
+    android:background="#FFFFFF">
+<LinearLayout
+	android:layout_height="wrap_content"
+	android:layout_width="wrap_content"
+	android:orientation="vertical">
+
+
+	<TextView
+		android:textSize="14.0sp"
+		android:textColor="#90303030"
+		android:id="@android:id/title"
+		android:paddingLeft="4.0dip"
+		android:paddingTop="0.0dip"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="0.0dip"
+		android:text="系统"/>
+	<LinearLayout
+		android:gravity="center"
+		android:clickable="true"
+		android:orientation="horizontal"
+		android:paddingTop="0.0dp"
+		android:layout_width="wrap_content"
+		android:layout_height="48dp"
+		android:paddingStart="10.0dip"
+        android:foreground="?android:attr/selectableItemBackground"
+		android:background="@drawable/bg_listview_item"
+		android:id="@+id/brevent"
+        android:focusable="true">
+
+		<RelativeLayout
+			android:paddingTop="0.0dip"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1.0">
+
+			<TextView
+				android:textSize="14.0sp"
+				android:textColor="#ff000000"
+				android:id="@android:id/title"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="2.0dip"
+				android:text="黑域"
+				android:layout_alignParentStart="true"
+				android:layout_alignParentEnd="true"/>
+
+			<TextView
+				android:textSize="12.0sp"
+				android:textColor="#ff696666"
+				android:id="@android:id/summary"
+				android:layout_width="300.0dip"
+				android:layout_height="wrap_content"
+				android:text="一键开启黑域管理程序"
+				android:layout_below="@android:id/title"
+				android:gravity="top"/>
+
+		</RelativeLayout>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:gravity="center"
+		android:clickable="true"
+		android:orientation="horizontal"
+		android:paddingTop="0.0dip"
+		android:layout_width="wrap_content"
+		android:layout_height="48dp"
+        android:foreground="?android:attr/selectableItemBackground"
+		android:paddingStart="10.0dip"
+		android:background="@drawable/bg_listview_item"
+		android:id="@+id/dongjie"
+        android:focusable="true">
+
+		<RelativeLayout
+			android:paddingTop="0.0dip"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1.0">
+
+			<TextView
+				android:textSize="14.0sp"
+				android:textColor="#ff000000"
+				android:id="@android:id/title"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="2.0dip"
+				android:text="程序冻结"
+				android:layout_alignParentStart="true"
+				android:layout_alignParentEnd="true"/>
+
+			<TextView
+				android:textSize="12.0sp"
+				android:textColor="#ff696666"
+				android:id="@android:id/summary"
+				android:layout_width="300.0dip"
+				android:layout_height="wrap_content"
+				android:text="冻结用户应用和系统应用"
+				android:layout_below="@android:id/title"
+				android:gravity="top"/>
+
+		</RelativeLayout>
+
+	</LinearLayout>
+
+	<TextView
+		android:textSize="14.0sp"
+		android:textColor="#90303030"
+		android:id="@android:id/title"
+		android:paddingLeft="4.0dip"
+		android:paddingTop="0.0dip"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="0.0dip"
+		android:text="声音"/>
+
+	<LinearLayout
+		android:gravity="center"
+		android:clickable="true"
+		android:orientation="horizontal"
+		android:paddingTop="0.0dip"
+		android:layout_width="wrap_content"
+		android:layout_height="48dp"
+        android:foreground="?android:attr/selectableItemBackground"
+		android:paddingStart="10.0dip"
+		android:background="@drawable/bg_listview_item"
+		android:id="@+id/kuishe"
+        android:focusable="true">
+
+		<RelativeLayout
+			android:paddingTop="0.0dip"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1.0">
+
+			<TextView
+				android:textSize="14.0sp"
+				android:textColor="#ff000000"
+				android:id="@android:id/title"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="2.0dip"
+				android:text="蝰蛇音效"
+				android:layout_alignParentStart="true"
+				android:layout_alignParentEnd="true"/>
+
+			<TextView
+				android:textSize="12.0sp"
+				android:textColor="#ff696666"
+				android:id="@android:id/summary"
+				android:layout_width="300.0dip"
+				android:layout_height="wrap_content"
+				android:text="进入蝰蛇音效设置"
+				android:layout_below="@android:id/title"
+				android:gravity="top"/>
+
+		</RelativeLayout>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:gravity="center"
+		android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+		android:orientation="horizontal"
+		android:paddingTop="0.0dip"
+		android:layout_width="wrap_content"
+		android:layout_height="48dp"
+		android:paddingStart="10.0dip"
+		android:background="@drawable/bg_listview_item"
+		android:id="@+id/dubi"
+        android:focusable="true">
+
+		<RelativeLayout
+			android:paddingTop="0.0dip"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1.0">
+
+			<TextView
+				android:textSize="14.0sp"
+				android:textColor="#ff000000"
+				android:id="@android:id/title"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="2.0dip"
+				android:text="杜比音效"
+				android:layout_alignParentStart="true"
+				android:layout_alignParentEnd="true"/>
+
+			<TextView
+				android:textSize="12.0sp"
+				android:textColor="#ff696666"
+				android:id="@android:id/summary"
+				android:layout_width="300.0dip"
+				android:layout_height="wrap_content"
+				android:text="进入杜比音效设置"
+				android:layout_below="@android:id/title"
+				android:gravity="top"/>
+
+		</RelativeLayout>
+
+	</LinearLayout>
+	<TextView
+		android:textSize="14.0sp"
+		android:textColor="#90303030"
+		android:id="@android:id/title"
+		android:paddingLeft="4.0dip"
+		android:paddingTop="0.0dip"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="0.0dip"
+		android:text="其他"/>
+	
+
+	<LinearLayout
+		android:gravity="center"
+		android:clickable="true"
+		android:orientation="horizontal"
+		android:paddingTop="0.0dip"
+        android:foreground="?android:attr/selectableItemBackground"
+		android:layout_width="wrap_content"
+		android:layout_height="48dp"
+		android:paddingStart="10.0dip"
+		android:background="@drawable/bg_listview_item"
+		android:id="@+id/wifipassword"
+        android:focusable="true">
+
+		<RelativeLayout
+			android:paddingTop="0.0dip"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1.0">
+
+			<TextView
+				android:textSize="14.0sp"
+				android:textColor="#ff000000"
+				android:id="@android:id/title"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="2.0dip"
+				android:text="WIFI密码查看"
+				android:layout_alignParentStart="true"
+				android:layout_alignParentEnd="true"/>
+
+			<TextView
+				android:textSize="12.0sp"
+				android:textColor="#ff696666"
+				android:id="@android:id/summary"
+				android:layout_width="300.0dip"
+				android:layout_height="wrap_content"
+				android:text="查看已连接的WIFI密码"
+				android:layout_below="@android:id/title"
+				android:gravity="top"/>
+
+		</RelativeLayout>
+
+	</LinearLayout>
+</LinearLayout>
+</FrameLayout>

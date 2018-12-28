@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">N设置</string>
+    <string name="recovery_confirm">确定重启至Recovery</string>
+    <string name="fastboot_confirm">确定重启至Fastboot</string>
+    <string name="launcheruiusr_1">原版按键布局</string>
+    <string name="launcheruiusr_2">返回菜单互换</string>
+    <string name="launcheruiusrxl_1">官方原版布局</string>
+    <string name="launcheruiusrxl_2">下拉4快捷</string>
+    <string name="launcheruiusrxl_3">美化布局</string>
+    <string name="title_listpreference">MIUI布局切换</string>
+    <string name="switch_keys_title">菜单返回键功能互换</string>
+    <string name="gf_dialog_msg_install">确认安装谷歌服务套件？选择安装后手机将自动重启生效 ...</string>
+    <string name="gf_dialog_msg_unstall">确认卸载谷歌服务套件？选择卸载后手机将自动重启生效 ...</string>
+    <string name="gf_dialog_msg_install_xposed">确定安装Xposed框架？如果选择确定将进行自动安装，片刻后手机自动重启，安装后首次开机时间较长，请耐心等待！</string>
+    <string name="gf_dialog_msg_unstall_xposed">卸载Xposed框架？如果选择确定将进行自动卸载，片刻后手机自动重启，卸载后首次开机时间较长，请耐心等待！</string>
+    <string name="gf_dialog_cancel_info">取消</string>
+    <string name="gf_dialog_confirm_info">确定</string>
+    <string name="xposed_summary">安装Xposed及相关设置</string>
+    <string name="xposed_summary2">进入Xposed框架设置</string>
+    <string name="xposed_title2">Xposed 框架管理</string>
+    <string name="xposed_info_title">使用说明</string>
+    <string name="xposed_info_summary">"1. 为考虑稳定性，默认不启用Xposed框架
+2. 如需使用Xposed，请使用第三方Recovery刷入Xposed框架方可激活
+3. 框架文件已放置在您手机内置存储即sdcard/根目录，名为mgk_xposed.zip，刷入前无需双清
+4. 成功激活后请在Xposed框架中勾选可用模块，然后重启手机即可使用对应模块相关功能"</string>
+    <string name="install_xposed_title">安装</string>
+    <string name="install_xposed_summary_off">未安装Xposed框架</string>
+    <string name="install_xposed_summary_on">已安装Xposed框架</string>
+    <string name="xposed_progress_msg">请稍等片刻，完成后手机将自动重启 ...</string>
+    <string name="xposed_install_progress_title">安装中</string>
+    <string name="xposed_uninstall_progress_title">卸载中</string>
+    <string name="about_mgk" />
+    <string name="mgk_info_summary" />
+    <string name="mgk_info_title" />
+    <string name="author_info_summary" />
+    <string name="author_info_title" />
+    <string name="author_blog_info_summary" />
+    <string name="author_blog_info_title" />
+    <string name="device_info_summary" />
+    <string name="device_info_title">支持机型</string>
+    <string name="Btn_Cancel">取消</string>
+    <string name="Btn_Sure">确定</string>
+    <string name="Label_MyName">作者:Nightmare(梦魇兽)</string>
+    <string name="Tips_Need_Root">"软件运行需要ROOT权限，
+点击确定开始授权."</string>
+    <string name="Tips_No_Root">尚未获取Root权限,部分功能将被禁用！</string>
+    <string name="nightmare">一包辣条好吗！</string>
+    <string name="xposed_title">Xposed</string>
+    <string name="tiny_sb_summary">沉浸式状态栏设置</string>
+    <string name="tiny_sb_title">沉浸式状态栏</string>
+    <string name="gf_dialog_title">提示</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">点这个会进我QQ</string>
+</resources>

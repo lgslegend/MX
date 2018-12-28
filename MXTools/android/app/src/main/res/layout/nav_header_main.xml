@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:background="@drawable/side_nav_bar"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:id="@+id/tangxueyi"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="start"
+        android:background="@drawable/tangxueyi"
+        android:clickable="true"
+        android:src="@drawable/tangxueyi1" />
+
+
+    <TextView
+        android:id="@+id/JiXing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="机型未成功获取"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingTop="0.0dp">
+
+        <TextView
+            android:id="@+id/ROOT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:text="成功获取ROOT权限"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:id="@+id/Version"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginEnd="0dp"
+            android:layout_weight="1.0"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+</LinearLayout>
+

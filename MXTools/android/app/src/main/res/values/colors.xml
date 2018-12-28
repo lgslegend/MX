@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="theme_primary">#303030</color>
+    <color name="theme_primary_dark">#303030</color>
+    <color name="white">#fafafa</color>
+    <color name="yellow">#ffffff00</color>
+    <color name="list_item_press">#0a303030</color>
+    <color name="tab_press">#0affffff</color>
+    <color name="dark_black">#ff2c2f3e</color>
+    <color name="tab_1">#4682B4</color>
+    <color name="tab_2">#4a3434</color>
+    <color name="tab_3">#7f3f3f</color>
+    <color name="tab_4">#3f577f</color>
+    <color name="tab_5">#3f6f7f</color>
+    <color name="transparent">#00000000</color>
+</resources>

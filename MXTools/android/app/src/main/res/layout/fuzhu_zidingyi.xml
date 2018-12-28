@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:foreground="?android:attr/selectableItemBackground"
+	android:clickable="true"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:focusable="true">
+
+	<FrameLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:background="#FFFFFF">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical">
+
+			<TextView
+				android:id="@android:id/title"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="0.0dip"
+				android:paddingLeft="4.0dip"
+				android:paddingTop="0.0dip"
+				android:text="提示:点击再次提示(避免程序停止；建议手动重启一次)"
+				android:textColor="#ff303030"
+				android:textSize="14.0sp" />
+
+			<TextView
+				android:id="@android:id/title"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="0.0dip"
+				android:paddingLeft="4.0dip"
+				android:paddingTop="0.0dip"
+				android:text="删除 计算器"
+				android:textColor="#ff303030"
+				android:textSize="14.0sp" />
+
+			<ImageView
+				android:id="@+id/zidingyi_jsq"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+                android:foreground="?android:attr/selectableItemBackground"
+				android:background="@drawable/bg_listview_item"
+				android:clickable="true"
+				android:src="@drawable/home"
+                android:focusable="true" />
+
+			<TextView
+				android:id="@android:id/title"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="0.0dip"
+				android:paddingLeft="4.0dip"
+				android:paddingTop="0.0dip"
+				android:text="删除 电子邮件"
+				android:textColor="#ff303030"
+				android:textSize="14.0sp" />
+
+			<ImageView
+				android:id="@+id/zidingyi_dzyj"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@drawable/bg_listview_item"
+                android:foreground="?android:attr/selectableItemBackground"
+				android:clickable="true"
+				android:src="@drawable/home"
+                android:focusable="true" />
+
+			<TextView
+				android:id="@android:id/title"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="0.0dip"
+				android:paddingLeft="4.0dip"
+				android:paddingTop="0.0dip"
+				android:text="删除 文件管理"
+				android:textColor="#ff303030"
+				android:textSize="14.0sp" />
+
+			<ImageView
+				android:id="@+id/zidingyi_wjgl"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@drawable/bg_listview_item"
+                android:foreground="?android:attr/selectableItemBackground"
+				android:clickable="true"
+				android:src="@drawable/home"
+                android:focusable="true" />
+
+			<TextView
+				android:id="@android:id/title"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="0.0dip"
+				android:paddingLeft="4.0dip"
+				android:paddingTop="0.0dip"
+				android:text="删除 动态壁纸"
+				android:textColor="#ff303030"
+				android:textSize="14.0sp" />
+
+			<ImageView
+				android:id="@+id/zidingyi_dtbz"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@drawable/bg_listview_item"
+                android:foreground="?android:attr/selectableItemBackground"
+				android:clickable="true"
+				android:src="@drawable/home"
+                android:focusable="true" />
+
+			<TextView
+				android:id="@android:id/title"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="0.0dip"
+				android:paddingLeft="4.0dip"
+				android:paddingTop="0.0dip"
+				android:text="删除 小米钱包"
+				android:textColor="#ff303030"
+				android:textSize="14.0sp" />
+
+			<ImageView
+				android:id="@+id/zidingyi_xmqb"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+                android:foreground="?android:attr/selectableItemBackground"
+				android:background="@drawable/bg_listview_item"
+				android:clickable="true"
+				android:src="@drawable/home"
+                android:focusable="true" />
+
+			<TextView
+				android:id="@android:id/title"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="0.0dip"
+				android:paddingLeft="4.0dip"
+				android:paddingTop="0.0dip"
+				android:text="删除 指南针"
+				android:textColor="#ff303030"
+				android:textSize="14.0sp" />
+
+			<ImageView
+				android:id="@+id/zidingyi_znz"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@drawable/bg_listview_item"
+                android:foreground="?android:attr/selectableItemBackground"
+				android:clickable="true"
+				android:src="@drawable/home"
+                android:focusable="true" />
+
+			<TextView
+				android:id="@android:id/title"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="0.0dip"
+				android:paddingLeft="4.0dip"
+				android:paddingTop="0.0dip"
+				android:text="删除 扫一扫"
+				android:textColor="#ff303030"
+				android:textSize="14.0sp" />
+
+			<ImageView
+				android:id="@+id/zidingyi_sys"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@drawable/bg_listview_item"
+                android:foreground="?android:attr/selectableItemBackground"
+				android:clickable="true"
+				android:src="@drawable/home"
+                android:focusable="true" />
+
+			<TextView
+				android:id="@android:id/title"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="0.0dip"
+				android:paddingLeft="4.0dip"
+				android:paddingTop="0.0dip"
+				android:text="删除 小米视频"
+				android:textColor="#ff303030"
+				android:textSize="14.0sp" />
+
+			<ImageView
+				android:id="@+id/zidingyi_xmsp"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@drawable/bg_listview_item"
+                android:foreground="?android:attr/selectableItemBackground"
+				android:clickable="true"
+				android:src="@drawable/home"
+                android:focusable="true" />
+
+			<TextView
+				android:id="@android:id/title"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="0.0dip"
+				android:paddingLeft="4.0dip"
+				android:paddingTop="0.0dip"
+				android:text="删除 标签"
+				android:textColor="#ff303030"
+				android:textSize="14.0sp" />
+
+			<ImageView
+				android:id="@+id/zidingyi_bq"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@drawable/bg_listview_item"
+                android:foreground="?android:attr/selectableItemBackground"
+				android:clickable="true"
+				android:src="@drawable/home"
+                android:focusable="true" />
+
+			<TextView
+				android:id="@android:id/title"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="0.0dip"
+				android:paddingLeft="4.0dip"
+				android:paddingTop="0.0dip"
+				android:text="删除 全局搜索"
+				android:textColor="#ff303030"
+				android:textSize="14.0sp" />
+
+			<ImageView
+				android:id="@+id/zidingyi_qjss"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@drawable/bg_listview_item"
+                android:foreground="?android:attr/selectableItemBackground"
+				android:clickable="true"
+				android:src="@drawable/home"
+                android:focusable="true" />
+
+			<TextView
+				android:id="@android:id/title"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="0.0dip"
+				android:paddingLeft="4.0dip"
+				android:paddingTop="0.0dip"
+				android:text="删除 搜狗输入法小米版"
+				android:textColor="#ff303030"
+				android:textSize="14.0sp" />
+
+			<ImageView
+				android:id="@+id/zidingyi_sg"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@drawable/bg_listview_item"
+                android:foreground="?android:attr/selectableItemBackground"
+				android:clickable="true"
+				android:src="@drawable/home"
+                android:focusable="true" />
+
+			<TextView
+				android:id="@android:id/title"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="0.0dip"
+				android:paddingLeft="4.0dip"
+				android:paddingTop="0.0dip"
+				android:text="删除 语音助手"
+				android:textColor="#ff303030"
+				android:textSize="14.0sp" />
+
+			<ImageView
+				android:id="@+id/zidingyi_yyzs"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@drawable/bg_listview_item"
+                android:foreground="?android:attr/selectableItemBackground"
+				android:clickable="true"
+				android:src="@drawable/home"
+                android:focusable="true" />
+
+			<TextView
+				android:id="@android:id/title"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="0.0dip"
+				android:paddingLeft="4.0dip"
+				android:paddingTop="0.0dip"
+				android:text="删除 小米账号VIP等级"
+				android:textColor="#ff303030"
+				android:textSize="14.0sp" />
+
+			<ImageView
+				android:id="@+id/zidingyi_xmzh"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@drawable/bg_listview_item"
+                android:foreground="?android:attr/selectableItemBackground"
+				android:clickable="true"
+				android:src="@drawable/home"
+                android:focusable="true" />
+
+			<TextView
+				android:id="@android:id/title"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="0.0dip"
+				android:paddingLeft="4.0dip"
+				android:paddingTop="0.0dip"
+				android:text="删除 小米卡包"
+				android:textColor="#ff303030"
+				android:textSize="14.0sp" />
+
+			<ImageView
+				android:id="@+id/zidingyi_xmkb"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@drawable/bg_listview_item"
+                android:foreground="?android:attr/selectableItemBackground"
+				android:clickable="true"
+				android:src="@drawable/home"
+                android:focusable="true" />
+
+			<TextView
+				android:id="@android:id/title"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="0.0dip"
+				android:paddingLeft="4.0dip"
+				android:paddingTop="0.0dip"
+				android:text="删除 浏览器"
+				android:textColor="#ff303030"
+				android:textSize="14.0sp" />
+
+			<ImageView
+				android:id="@+id/zidingyi_llq"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@drawable/bg_listview_item"
+                android:foreground="?android:attr/selectableItemBackground"
+				android:clickable="true"
+				android:src="@drawable/home"
+                android:focusable="true" />
+
+			<TextView
+				android:id="@android:id/title"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="0.0dip"
+				android:paddingLeft="4.0dip"
+				android:paddingTop="0.0dip"
+				android:text="删除 日历"
+				android:textColor="#ff303030"
+				android:textSize="14.0sp" />
+
+			<ImageView
+				android:id="@+id/zidingyi_rl"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+                android:background="@drawable/bg_listview_item"
+                android:foreground="?android:attr/selectableItemBackground"
+				android:clickable="true"
+				android:src="@drawable/home"
+                android:focusable="true" />
+
+			<TextView
+				android:id="@android:id/title"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="0.0dip"
+				android:paddingLeft="4.0dip"
+				android:paddingTop="0.0dip"
+				android:text="删除 下载管理"
+				android:textColor="#ff303030"
+				android:textSize="14.0sp" />
+
+			<ImageView
+				android:id="@+id/zidingyi_xzgl"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@drawable/bg_listview_item"
+                android:foreground="?android:attr/selectableItemBackground"
+				android:clickable="true"
+				android:src="@drawable/home"
+                android:focusable="true" />
+
+			<TextView
+				android:id="@android:id/title"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="0.0dip"
+				android:paddingLeft="4.0dip"
+				android:paddingTop="0.0dip"
+				android:text="删除 小米快传"
+				android:textColor="#ff303030"
+				android:textSize="14.0sp" />
+
+			<ImageView
+				android:id="@+id/zidingyi_xmkc"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@drawable/bg_listview_item"
+                android:foreground="?android:attr/selectableItemBackground"
+				android:clickable="true"
+				android:src="@drawable/home"
+                android:focusable="true" />
+
+			<TextView
+				android:id="@android:id/title"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="0.0dip"
+				android:paddingLeft="4.0dip"
+				android:paddingTop="0.0dip"
+				android:text="删除 图库"
+				android:textColor="#ff303030"
+				android:textSize="14.0sp" />
+
+			<ImageView
+				android:id="@+id/zidingyi_tk"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@drawable/bg_listview_item"
+                android:foreground="?android:attr/selectableItemBackground"
+				android:clickable="true"
+				android:src="@drawable/home"
+                android:focusable="true" />
+
+			<TextView
+				android:id="@android:id/title"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="0.0dip"
+				android:paddingLeft="4.0dip"
+				android:paddingTop="0.0dip"
+				android:text="删除 音乐"
+				android:textColor="#ff303030"
+				android:textSize="14.0sp" />
+
+			<ImageView
+				android:id="@+id/zidingyi_yy"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@drawable/bg_listview_item"
+                android:foreground="?android:attr/selectableItemBackground"
+				android:clickable="true"
+				android:src="@drawable/home"
+                android:focusable="true" />
+
+			<TextView
+				android:id="@android:id/title"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="0.0dip"
+				android:paddingLeft="4.0dip"
+				android:paddingTop="0.0dip"
+				android:text="删除 天气"
+				android:textColor="#ff303030"
+				android:textSize="14.0sp" />
+
+			<ImageView
+				android:id="@+id/zidingyi_tq"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@drawable/bg_listview_item"
+                android:foreground="?android:attr/selectableItemBackground"
+				android:clickable="true"
+				android:src="@drawable/home"
+                android:focusable="true" />
+
+		</LinearLayout>
+
+	</FrameLayout>
+
+</ScrollView>
+

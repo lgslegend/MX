@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/miui"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/miui_ztlbj"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:animateLayoutChanges="true"
+        android:background="@drawable/bg_listview_item"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingStart="10.0dip">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:paddingTop="0.0dip">
+
+            <TextView
+                android:id="@android:id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="2.0dip"
+                android:text="状态栏布局"
+                android:textColor="#ff000000"
+                android:textSize="14.0sp" />
+
+            <TextView
+                android:id="@android:id/summary"
+                android:layout_width="300.0dip"
+                android:layout_height="wrap_content"
+                android:layout_below="@android:id/title"
+                android:gravity="top"
+                android:text="IOS布局,官方布局切换"
+                android:textColor="#ff696666"
+                android:textSize="12.0sp" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/miui_ztlsj"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_below="@id/miui_ztlbj"
+        android:background="@drawable/bg_listview_item"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingStart="10.0dip"
+        tools:ignore="RtlSymmetry">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:paddingTop="0.0dip">
+
+            <TextView
+                android:id="@android:id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="2.0dip"
+                android:text="状态栏时间风格"
+                android:textColor="#ff000000"
+                android:textSize="14.0sp" />
+
+            <TextView
+                android:id="@android:id/summary"
+                android:layout_width="300.0dip"
+                android:layout_height="wrap_content"
+                android:layout_below="@android:id/title"
+                android:gravity="top"
+                android:text="显示农历、星期、时间"
+                android:textColor="#ff696666"
+                android:textSize="12.0sp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/miui_zmbj"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_below="@id/miui_ztlsj"
+        android:background="@drawable/bg_listview_item"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingStart="10.0dip"
+        android:paddingTop="0.0dip">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:paddingTop="0.0dip">
+
+            <TextView
+                android:id="@android:id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="2.0dip"
+                android:text="桌面图标布局"
+                android:textColor="#ff000000"
+                android:textSize="14.0sp" />
+
+            <TextView
+                android:id="@android:id/summary"
+                android:layout_width="300.0dip"
+                android:layout_height="wrap_content"
+                android:layout_below="@android:id/title"
+                android:gravity="top"
+                android:text="桌面4X5、4X6、5X5、5X6切换"
+                android:textColor="#ff696666"
+                android:textSize="12.0sp" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/miui_gddh"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_below="@id/miui_zmbj"
+        android:background="@drawable/bg_listview_item"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingStart="10.0dip"
+        android:paddingTop="0.0dip">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:paddingTop="0.0dip">
+
+            <TextView
+                android:id="@android:id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="2.0dip"
+                android:text="过渡动画切换"
+                android:textColor="#ff000000"
+                android:textSize="14.0sp" />
+
+            <TextView
+                android:id="@android:id/summary"
+                android:layout_width="300.0dip"
+                android:layout_height="wrap_content"
+                android:layout_below="@android:id/title"
+                android:gravity="top"
+                android:text="多种过渡动画自由选择"
+                android:textColor="#ff696666"
+                android:textSize="12.0sp" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+
+

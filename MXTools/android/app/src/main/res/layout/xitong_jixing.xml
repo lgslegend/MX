@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent">
+
+	<FrameLayout
+		android:layout_height="fill_parent"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:background="#FFFFFF">
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:orientation="vertical"
+			android:paddingTop="0dp">
+
+			<TextView
+				android:textSize="14.0sp"
+				android:textColor="#ff303030"
+				android:id="@android:id/title"
+				android:paddingLeft="4.0dip"
+				android:paddingTop="0.0dip"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="0.0dip"
+				android:text="机型设置"/>
+			
+			<LinearLayout
+				android:gravity="center"
+				android:clickable="true"
+				android:background="@drawable/bg_listview_item"
+				android:orientation="horizontal"
+				android:paddingTop="0.0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="48dp"
+				android:paddingStart="10.0dip"
+				android:id="@+id/jixing_xgxh">
+
+				<RelativeLayout
+					android:paddingTop="0.0dip"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.0">
+
+					<TextView
+						android:textSize="14.0sp"
+						android:textColor="#ff000000"
+						android:id="@android:id/title"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginTop="2.0dip"
+						android:text="修改型号:ro.product.model"
+						android:layout_alignParentStart="true"
+						android:layout_alignParentEnd="true"/>
+
+					<TextView
+						android:textSize="12.0sp"
+						android:textColor="#ff696666"
+						android:id="@+id/jixing_a"
+						android:layout_width="300.0dip"
+						android:layout_height="wrap_content"
+						android:text="识别中..."
+						android:layout_below="@android:id/title"
+						android:gravity="top"/>
+
+				</RelativeLayout>
+
+			</LinearLayout>
+			<LinearLayout
+				android:gravity="center"
+				android:clickable="true"
+				android:background="@drawable/bg_listview_item"
+				android:orientation="horizontal"
+				android:paddingTop="0.0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="48dp"
+				android:paddingStart="10.0dip"
+				android:id="@+id/jixing_xgcs">
+
+				<RelativeLayout
+					android:paddingTop="0.0dip"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.0">
+
+					<TextView
+						android:textSize="14.0sp"
+						android:textColor="#ff000000"
+						android:id="@android:id/title"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginTop="2.0dip"
+						android:text="修改厂商名称:ro.product.manufacturer" 
+						android:layout_alignParentStart="true"
+						android:layout_alignParentEnd="true"/>
+
+					<TextView
+						android:textSize="12.0sp"
+						android:textColor="#ff696666"
+						android:id="@+id/jixing_b"
+						android:layout_width="300.0dip"
+						android:layout_height="wrap_content"
+						android:text="识别中..."
+						android:layout_below="@android:id/title"
+						android:gravity="top"/>
+
+				</RelativeLayout>
+
+			</LinearLayout>
+			<LinearLayout
+				android:gravity="center"
+				android:clickable="true"
+				android:background="@drawable/bg_listview_item"
+				android:orientation="horizontal"
+				android:paddingTop="0.0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="48dp"
+				android:paddingStart="10.0dip"
+				android:id="@+id/jixing_kqlx">
+
+				<RelativeLayout
+					android:paddingTop="0.0dip"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.0">
+
+					<TextView
+						android:textSize="14.0sp"
+						android:textColor="#ff000000"
+						android:id="@android:id/title"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginTop="2.0dip"
+						android:text="王者开启录像" 
+						android:layout_alignParentStart="true"
+						android:layout_alignParentEnd="true"/>
+
+					<TextView
+						android:textSize="12.0sp"
+						android:textColor="#ff696666"
+						android:layout_width="300.0dip"
+						android:layout_height="wrap_content"
+						android:text="修改机型为OPPO R11"
+						android:layout_below="@android:id/title"
+						android:gravity="top"/>
+
+				</RelativeLayout>
+
+			</LinearLayout>
+			
+			
+			
+			
+			
+			<TextView
+				android:textSize="14.0sp"
+				android:textColor="#ff303030"
+				android:id="@android:id/title"
+				android:paddingLeft="4.0dip"
+				android:paddingTop="0.0dip"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="0.0dip"
+				android:text="其它值"/>
+
+			<LinearLayout
+				android:gravity="center"
+				android:clickable="true"
+				android:orientation="horizontal"
+				android:paddingTop="0.0dip"
+				android:layout_width="wrap_content"
+				android:layout_height="48dp"
+				android:paddingStart="10.0dip"
+				android:background="@drawable/bg_listview_item"
+				android:id="@+id/jixing_xgpp">
+
+				<RelativeLayout
+					android:paddingTop="0.0dip"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.0">
+
+					<TextView
+						android:textSize="14.0sp"
+						android:textColor="#ff000000"
+						android:id="@android:id/title"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginTop="2.0dip"
+						android:text="修改品牌名称:ro.product.brand"
+						android:layout_alignParentStart="true"
+						android:layout_alignParentEnd="true"/>
+
+					<TextView
+						android:textSize="12.0sp"
+						android:textColor="#ff696666"
+						android:id="@+id/jixing_c"
+						android:layout_width="300.0dip"
+						android:layout_height="wrap_content"
+						android:text="识别中..."
+						android:layout_below="@android:id/title"
+						android:gravity="top"/>
+
+				</RelativeLayout>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:gravity="center"
+				android:clickable="true"
+				android:orientation="horizontal"
+				android:paddingTop="0.0dip"
+				android:layout_width="wrap_content"
+				android:layout_height="48dp"
+				android:paddingStart="10.0dip"
+				android:background="@drawable/bg_listview_item"
+				android:id="@+id/jixing_xgsj">
+
+				<RelativeLayout
+					android:paddingTop="0.0dip"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.0">
+
+					<TextView
+						android:textSize="14.0sp"
+						android:textColor="#ff000000"
+						android:id="@android:id/title"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginTop="2.0dip"
+						android:text="修改手机名:ro.product.name"
+						android:layout_alignParentStart="true"
+						android:layout_alignParentEnd="true"/>
+
+					<TextView
+						android:textSize="12.0sp"
+						android:textColor="#ff696666"
+						android:id="@+id/jixing_d"
+						android:layout_width="300.0dip"
+						android:layout_height="wrap_content"
+						android:text="识别中..."
+						android:layout_below="@android:id/title"
+						android:gravity="top"/>
+
+				</RelativeLayout>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:gravity="center"
+				android:clickable="true"
+				android:orientation="horizontal"
+				android:paddingTop="0.0dip"
+				android:layout_width="wrap_content"
+				android:layout_height="48dp"
+				android:paddingStart="10.0dip"
+				android:background="@drawable/bg_listview_item"
+				android:id="@+id/jixing_xgbb">
+
+				<RelativeLayout
+					android:paddingTop="0.0dip"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.0">
+
+					<TextView
+						android:textSize="14.0sp"
+						android:textColor="#ff000000"
+						android:id="@android:id/title"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginTop="2.0dip"
+						android:text="修改版本id:ro.build.id"
+						android:layout_alignParentStart="true"
+						android:layout_alignParentEnd="true"/>
+
+					<TextView
+						android:textSize="12.0sp"
+						android:textColor="#ff696666"
+						android:id="@+id/jixing_e"
+						android:layout_width="300.0dip"
+						android:layout_height="wrap_content"
+						android:text="识别中..."
+						android:layout_below="@android:id/title"
+						android:gravity="top"/>
+
+				</RelativeLayout>
+
+			</LinearLayout>
+			<LinearLayout
+				android:gravity="center"
+				android:clickable="true"
+				android:orientation="horizontal"
+				android:paddingTop="0.0dip"
+				android:layout_width="wrap_content"
+				android:layout_height="48dp"
+				android:paddingStart="10.0dip"
+				android:background="@drawable/bg_listview_item"
+				android:id="@+id/jixing_xgbbh">
+
+				<RelativeLayout
+					android:paddingTop="0.0dip"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.0">
+
+					<TextView
+						android:textSize="14.0sp"
+						android:textColor="#ff000000"
+						android:id="@android:id/title"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginTop="2.0dip"
+						android:text="修改版本号:ro.build.display.id"
+						android:layout_alignParentStart="true"
+						android:layout_alignParentEnd="true"/>
+
+					<TextView
+						android:textSize="12.0sp"
+						android:textColor="#ff696666"
+						android:id="@+id/jixing_f"
+						android:layout_width="300.0dip"
+						android:layout_height="wrap_content"
+						android:text="识别中..."
+						android:layout_below="@android:id/title"
+						android:gravity="top"/>
+
+				</RelativeLayout>
+
+			</LinearLayout>
+			<LinearLayout
+				android:gravity="center"
+				android:clickable="true"
+				android:orientation="horizontal"
+				android:paddingTop="0.0dip"
+				android:layout_width="wrap_content"
+				android:layout_height="48dp"
+				android:paddingStart="10.0dip"
+				android:background="@drawable/bg_listview_item"
+				android:id="@+id/jixing_hfmmz">
+
+				<RelativeLayout
+					android:paddingTop="0.0dip"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.0">
+
+					<TextView
+						android:textSize="14.0sp"
+						android:textColor="#ff000000"
+						android:id="@android:id/title"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginTop="2.0dip"
+						android:text="恢复默认值"
+						android:layout_alignParentStart="true"
+						android:layout_alignParentEnd="true"/>
+
+					<TextView
+						android:textSize="12.0sp"
+						android:textColor="#ff696666"
+						android:id="@+id/hfmrz_a"
+						android:layout_width="300.0dip"
+						android:layout_height="wrap_content"
+						android:text="点击将恢复默认值"
+						android:layout_below="@android:id/title"
+						android:gravity="top"/>
+
+				</RelativeLayout>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+	</FrameLayout>
+
+</ScrollView>
+

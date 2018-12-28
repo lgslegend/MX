@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent"
+	android:layout_width="match_parent"
+	android:layout_weight="1.0"
+	android:orientation="vertical"
+	android:background="#FFFFFF">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical">
+
+		<TextView
+			android:id="@android:id/title"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="0.0dip"
+			android:paddingLeft="4.0dip"
+			android:paddingTop="0.0dip"
+			android:text="提示:点击返回桌面后生效"
+			android:textColor="#ff303030"
+			android:textSize="14.0sp" />
+
+		<TextView
+			android:id="@android:id/title"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="0.0dip"
+			android:paddingLeft="4.0dip"
+			android:paddingTop="0.0dip"
+			android:text="图标 4X5"
+			android:textColor="#ff303030"
+			android:textSize="14.0sp" />
+
+		<ImageView
+			android:id="@+id/zmbj_a"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:adjustViewBounds="true"
+			android:background="@drawable/bg_listview_item"
+			android:clickable="true"
+			android:src="@drawable/home" />
+
+		<TextView
+			android:id="@android:id/title"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="0.0dip"
+			android:paddingLeft="4.0dip"
+			android:paddingTop="0.0dip"
+			android:text="图标 4X6"
+			android:textColor="#ff303030"
+			android:textSize="14.0sp" />
+
+		<ImageView
+			android:id="@+id/zmbj_b"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:adjustViewBounds="true"
+			android:background="@drawable/bg_listview_item"
+			android:clickable="true"
+			android:src="@drawable/home" />
+
+		<TextView
+			android:id="@android:id/title"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="0.0dip"
+			android:paddingLeft="4.0dip"
+			android:paddingTop="0.0dip"
+			android:text="图标 5X5"
+			android:textColor="#ff303030"
+			android:textSize="14.0sp" />
+
+		<ImageView
+			android:id="@+id/zmbj_c"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:adjustViewBounds="true"
+			android:background="@drawable/bg_listview_item"
+			android:clickable="true"
+			android:src="@drawable/home" />
+
+		<TextView
+			android:id="@android:id/title"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="0.0dip"
+			android:paddingLeft="4.0dip"
+			android:paddingTop="0.0dip"
+			android:text="图标 5X6"
+			android:textColor="#ff303030"
+			android:textSize="14.0sp" />
+
+		<ImageView
+			android:id="@+id/zmbj_d"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:adjustViewBounds="true"
+			android:background="@drawable/bg_listview_item"
+			android:clickable="true"
+			android:src="@drawable/home" />
+
+	</LinearLayout>
+
+</FrameLayout>
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="cardBackgroundColor" format="color" />
+    <attr name="cardCornerRadius" format="dimension" />
+    <attr name="cardElevation" format="dimension" />
+    <attr name="cardMaxElevation" format="dimension" />
+    <attr name="cardUseCompatPadding" format="boolean" />
+    <attr name="cardPreventCornerOverlap" format="boolean" />
+    <attr name="disableChildrenWhenDisabled" format="boolean" />
+    <attr name="topBottomBarArrowSize" format="dimension" />
+    <attr name="middleBarArrowSize" format="dimension" />
+    <attr name="popupPromptView" format="reference" />
+    <attr name="barSize" format="dimension" />
+    <attr name="spinnerMode">
+        <enum name="dialog" value="0" />
+        <enum name="dropdown" value="1" />
+    </attr>
+</resources>

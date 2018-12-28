@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent"
+	android:layout_height="fill_parent"
+	android:background="#FFFFFF"
+	android:orientation="vertical"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical">
+			<TextView
+				android:id="@android:id/title"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="0.0dip"
+				android:paddingLeft="4.0dip"
+				android:paddingTop="0.0dip"
+				android:text="提示:点击后自动重启生效(点击再次提示)"
+				android:textColor="#ff303030"
+				android:textSize="14.0sp" />
+
+			<TextView
+				android:id="@android:id/title"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="0.0dip"
+				android:paddingLeft="4.0dip"
+				android:paddingTop="0.0dip"
+				android:text="官方"
+				android:textColor="#ff303030"
+				android:textSize="14.0sp" />
+
+			<ImageView
+				android:id="@+id/gddh_a"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@drawable/bg_listview_item"
+				android:clickable="true"
+				android:src="@drawable/home" />
+
+			<TextView
+				android:id="@android:id/title"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="0.0dip"
+				android:paddingLeft="4.0dip"
+				android:paddingTop="0.0dip"
+				android:text="IOS"
+				android:textColor="#ff303030"
+				android:textSize="14.0sp" />
+
+			<ImageView
+				android:id="@+id/gddh_b"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@drawable/bg_listview_item"
+				android:clickable="true"
+				android:src="@drawable/home" />
+
+			<TextView
+				android:id="@android:id/title"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="0.0dip"
+				android:paddingLeft="4.0dip"
+				android:paddingTop="0.0dip"
+				android:text="九尾"
+				android:textColor="#ff303030"
+				android:textSize="14.0sp" />
+
+			<ImageView
+				android:id="@+id/gddh_c"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@drawable/bg_listview_item"
+				android:clickable="true"
+				android:src="@drawable/home" />
+
+			<TextView
+				android:id="@android:id/title"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="0.0dip"
+				android:paddingLeft="4.0dip"
+				android:paddingTop="0.0dip"
+				android:text="IUNI"
+				android:textColor="#ff303030"
+				android:textSize="14.0sp" />
+
+			<ImageView
+				android:id="@+id/gddh_d"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@drawable/bg_listview_item"
+				android:clickable="true"
+				android:src="@drawable/home" />
+
+			<TextView
+				android:id="@android:id/title"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="0.0dip"
+				android:paddingLeft="4.0dip"
+				android:paddingTop="0.0dip"
+				android:text="BLUR"
+				android:textColor="#ff303030"
+				android:textSize="14.0sp" />
+
+			<ImageView
+				android:id="@+id/gddh_e"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@drawable/bg_listview_item"
+				android:clickable="true"
+				android:src="@drawable/home" />
+
+			<TextView
+				android:id="@android:id/title"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="0.0dip"
+				android:paddingLeft="4.0dip"
+				android:paddingTop="0.0dip"
+				android:text="DX8"
+				android:textColor="#ff303030"
+				android:textSize="14.0sp" />
+
+			<ImageView
+				android:id="@+id/gddh_f"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@drawable/bg_listview_item"
+				android:clickable="true"
+				android:src="@drawable/home" />
+		</LinearLayout>
+
+	</FrameLayout>
+
+

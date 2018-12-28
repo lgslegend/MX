@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="#fafafa"
+	android:layout_height="fill_parent"
+	android:layout_width="match_parent"
+	android:layout_weight="1.0"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="vertical">
+
+		<TextView
+			android:textSize="14.0sp"
+			android:textColor="#ff303030"
+			android:id="@android:id/title"
+			android:paddingLeft="4.0dip"
+			android:paddingTop="0.0dip"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="0.0dip"
+			android:text="提示:点击将会立即生效"/>
+
+		<TextView
+			android:textSize="14.0sp"
+			android:textColor="#ff303030"
+			android:id="@android:id/title"
+			android:paddingLeft="4.0dip"
+			android:paddingTop="0.0dip"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="0.0dip"
+			android:text="仿IOS布局+图标"/>
+
+		<ImageView
+			android:id="@+id/ztlbj_ios"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:adjustViewBounds="true"
+			android:background="@drawable/bg_listview_item"
+			android:foreground="?android:attr/selectableItemBackground"
+			android:clickable="true"
+			android:src="@drawable/systemui_iosui" />
+
+		<TextView
+			android:textSize="14.0sp"
+			android:textColor="#ff303030"
+			android:id="@android:id/title"
+			android:paddingLeft="4.0dip"
+			android:paddingTop="0.0dip"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="0.0dip"
+			android:text="时间居中 + 信号居左"/>
+
+		<ImageView
+			android:id="@+id/ztlbj_sjjz"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:adjustViewBounds="true"
+			android:background="@drawable/bg_listview_item"
+			android:clickable="true"
+			android:src="@drawable/systemui_ios" />
+
+		<TextView
+			android:textSize="14.0sp"
+			android:textColor="#ff303030"
+			android:id="@android:id/title"
+			android:paddingLeft="4.0dip"
+			android:paddingTop="0.0dip"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="0.0dip"
+			android:text="官方默认布局"/>
+
+		<ImageView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:adjustViewBounds="true"
+			android:layout_marginBottom="20dp"
+			android:src="@drawable/systemui_default"/>
+		<ImageView
+			android:id="@+id/ztlbj_default"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:adjustViewBounds="true"
+			android:background="@drawable/bg_listview_item"
+			android:clickable="true"
+			android:src="@drawable/home" />
+		<TextView
+			android:textSize="14.0sp"
+			android:textColor="#ff303030"
+			android:id="@android:id/title"
+			android:paddingLeft="4.0dip"
+			android:paddingTop="0.0dip"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="0.0dip"
+			android:text="草泥马信号 + 时间居中 + 信号居左"/>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/systemui_nightmare"/>
+		<ImageView
+			android:id="@+id/ztlbj_caonima"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:adjustViewBounds="true"
+            android:foreground="?android:attr/selectableItemBackground"
+			android:background="@drawable/bg_listview_item"
+			android:clickable="true"
+			android:src="@drawable/home"
+            android:focusable="true" />
+
+	</LinearLayout>
+
+</RelativeLayout>
+
